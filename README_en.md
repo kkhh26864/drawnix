@@ -1,8 +1,8 @@
 <p align="center">
   <picture style="width: 320px">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h.svg?raw=true" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h_dark.svg?raw=true" />
-    <img src="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h.svg?raw=true" width="360" alt="Drawnix logo and name" />
+    <source media="(prefers-color-scheme: light)" srcset="./apps/web/public/logo/logo_drawnix_h.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./apps/web/public/logo/logo_drawnix_h_dark.svg" />
+    <img src="./apps/web/public/logo/logo_drawnix_h.svg" width="360" alt="Drawnix logo and name" />
   </picture>
 </p>
 <div align="center">
@@ -15,7 +15,7 @@
 <div align="center">
   <figure>
     <a target="_blank" rel="noopener">
-      <img src="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/product_showcase/case-2.png" alt="Product showcase" width="80%" />
+      <img src="./apps/web/public/product_showcase/case-2.png" alt="Product showcase" width="80%" />
     </a>
     <figcaption>
       <p align="center">
@@ -25,7 +25,7 @@
   </figure>
 </div>
 
-[*中文*](https://github.com/plait-board/drawnix/blob/develop/README.md)
+[*中文*](README.md)
 
 ## Features
 
@@ -66,7 +66,7 @@ Like a Phoenix, creativity must rise from the flames to be reborn, and ***Drawni
 ```
 drawnix/
 ├── apps/
-│   ├── web                   # drawnix.com
+│   ├── web                   # zymn.cc
 │   │    └── index.html       # HTML
 ├── dist/                     # Build artifacts
 ├── packages/
@@ -82,9 +82,9 @@ drawnix/
 
 ## Try It Out
 
-*https://drawnix.com* is the minimal application of *drawnix*.
+*https://zymn.cc* is the minimal application of *drawnix*.
 
-I will be iterating frequently on *drawnix.com* until the release of the *Dawn* version.
+I will be iterating frequently on *zymn.cc* until the release of the *Dawn* version.
 
 
 ## Development
@@ -94,26 +94,3 @@ npm install
 
 npm run start
 ```
-
-## Dependencies
-
-- [plait](https://github.com/worktile/plait) - Drawing framework
-- [slate](https://github.com/ianstormtaylor/slate) - Rich text editor framework
-- [floating-ui](https://github.com/floating-ui/floating-ui) - An awesome library for creating floating UI elements
-
-
-## Contributing
-
-Any form of contribution is welcome:
-
-- Report bugs
-
-- Contribute code
-
-## Support Us
-
-*Please show your support by giving us a star ⭐️⭐️⭐️.*
-
-## License
-
-[MIT License](https://github.com/plait-board/drawnix/blob/master/LICENSE)

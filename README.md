@@ -1,8 +1,8 @@
 <p align="center">
   <picture style="width: 320px">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h.svg?raw=true" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h_dark.svg?raw=true" />
-    <img src="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/logo/logo_drawnix_h.svg?raw=true" width="360" alt="Drawnix logo and name" />
+    <source media="(prefers-color-scheme: light)" srcset="./apps/web/public/logo/logo_drawnix_h.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./apps/web/public/logo/logo_drawnix_h_dark.svg" />
+    <img src="./apps/web/public/logo/logo_drawnix_h.svg" width="360" alt="Drawnix logo and name" />
   </picture>
 </p>
 <div align="center">
@@ -15,7 +15,7 @@
 <div align="center">
   <figure>
     <a target="_blank" rel="noopener">
-      <img src="https://github.com/plait-board/drawnix/blob/develop/apps/web/public/product_showcase/case-2.png" alt="Product showcase" width="80%" />
+      <img src="./apps/web/public/product_showcase/case-2.png" alt="Product showcase" width="80%" />
     </a>
     <figcaption>
       <p align="center">
@@ -25,7 +25,7 @@
   </figure>
 </div>
 
-[*English README*](https://github.com/plait-board/drawnix/blob/develop/README_en.md)
+[*English README*](README_en.md)
 
 ## 特性
 
@@ -68,7 +68,7 @@ Drawnix 是插件架构，与前面说到开源工具比技术架构更复杂一
 ```
 drawnix/
 ├── apps/
-│   ├── web                   # drawnix.com
+│   ├── web                   # zymn.cc
 │   │    └── index.html       # HTML
 ├── dist/                     # 构建产物
 ├── packages/
@@ -84,9 +84,9 @@ drawnix/
 
 ## 应用
 
-[*https://drawnix.com*](https://drawnix.com) 是 *drawnix* 的最小化应用。
+[*https://zymn.cc*](https://zymn.cc) 是 *drawnix* 的最小化应用。
 
-近期会高频迭代 drawnix.com，直到发布 *Dawn（破晓）* 版本。
+近期会高频迭代 zymn.cc，直到发布 *Dawn（破晓）* 版本。
 
 
 ## 开发
@@ -117,7 +117,8 @@ npm run start
 
 *欢迎大家 star ⭐️⭐️⭐️ 支持。*
 
+> All in one, just for you. Power by [自由码农博客](https://www.zymn.cc).
 
 ## License
 
-[MIT License](https://github.com/plait-board/drawnix/blob/master/LICENSE)  
+[MIT License](LICENSE)  

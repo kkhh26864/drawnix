@@ -1,6 +1,5 @@
 import {
   ExportImageIcon,
-  GithubIcon,
   OpenFileIcon,
   SaveFileIcon,
   TrashIcon,
@@ -142,11 +141,10 @@ CleanBoard.displayName = 'CleanBoard';
 export const Socials = () => {
   return (
     <MenuItemLink
-      icon={GithubIcon}
-      href="https://github.com/plait-board/drawnix"
-      aria-label="GitHub"
+      href="https://www.zymn.cc"
+      aria-label="自由码农博客"
     >
-      GitHub
+      自由码农博客
     </MenuItemLink>
   );
 };
